@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="161269" started-at="2021-04-25T17:05:29 IST" finished-at="2021-04-25T17:08:10 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="161269" started-at="2021-04-25T17:05:29 IST" finished-at="2021-04-25T17:08:10 IST">
+      <class name="com.ImpactGuru.testProject.TestCase.TC_ValidateNumbersInName">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_ValidateNumbersInName@319b92f3]" name="setup" is-config="true" duration-ms="9445" started-at="2021-04-25T17:05:29 IST" finished-at="2021-04-25T17:05:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_numbersInName()[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_ValidateNumbersInName@319b92f3]" name="TC_numbersInName" duration-ms="94901" started-at="2021-04-25T17:05:39 IST" finished-at="2021-04-25T17:07:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_numbersInName -->
+      </class> <!-- com.ImpactGuru.testProject.TestCase.TC_ValidateNumbersInName -->
+      <class name="com.ImpactGuru.testProject.TestCase.TC_Donate">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_Donate@2f0a87b3]" name="setup" is-config="true" duration-ms="6929" started-at="2021-04-25T17:05:34 IST" finished-at="2021-04-25T17:05:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DonateTC_TDD(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_Donate@2f0a87b3]" name="DonateTC_TDD" duration-ms="92966" started-at="2021-04-25T17:05:41 IST" data-provider="TestData" finished-at="2021-04-25T17:07:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8009898999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DonateTC_TDD -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_Donate@2f0a87b3]" name="setup" is-config="true" duration-ms="6257" started-at="2021-04-25T17:07:14 IST" finished-at="2021-04-25T17:07:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DonateTC_TDD(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_Donate@2f0a87b3]" name="DonateTC_TDD" duration-ms="50089" started-at="2021-04-25T17:07:20 IST" data-provider="TestData" finished-at="2021-04-25T17:08:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pqr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9009897999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DonateTC_TDD -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_Donate@2f0a87b3]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-25T17:08:10 IST" finished-at="2021-04-25T17:08:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ImpactGuru.testProject.TestCase.TC_Donate -->
+      <class name="com.ImpactGuru.testProject.TestCase.TC_ValidateName">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_ValidateName@fcd6521]" name="setup" is-config="true" duration-ms="11988" started-at="2021-04-25T17:05:29 IST" finished-at="2021-04-25T17:05:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_InvalidLength()[pri:0, instance:com.ImpactGuru.testProject.TestCase.TC_ValidateName@fcd6521]" name="TC_InvalidLength" duration-ms="101689" started-at="2021-04-25T17:05:41 IST" finished-at="2021-04-25T17:07:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_InvalidLength -->
+      </class> <!-- com.ImpactGuru.testProject.TestCase.TC_ValidateName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

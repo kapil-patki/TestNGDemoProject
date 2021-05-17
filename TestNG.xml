@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.ImpactGuru.testProject.Utilities.Reporting" />
+</listeners>
+
+  <!-- 
+  Parallel=Classes @beforeclass -  working as expected
+  Parallel=Classes @beforemethod - working as expected
+  Parallel=methods @beforemethod - working as expected
+  Parallel=methods @beforemethod - working as expected and 2 methods are in same class
+  -->  
+  <test name="Test" thread-count="3" parallel="methods">    
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ImpactGuru.testProject.TestCase.TC_Donate"/>
+      <class name="com.ImpactGuru.testProject.TestCase.TC_ValidateNumbersInName"/>  
+      <class name="com.ImpactGuru.testProject.TestCase.TC_ValidateName"/>                           
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
